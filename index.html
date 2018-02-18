@@ -1,0 +1,827 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+    <title>G.Christie's Portfolio</title>
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Bigelow+Rules|Faster+One|Finger+Paint|Italiana|Monoton|Nothing+You+Could+Do|Raleway+Dots|Simonetta" rel="stylesheet">
+    <!--animated css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Material Design Bootstrap -->
+    <link href="css/mdb.min.css" rel="stylesheet">
+    <!-- Captcha -->
+    <script src='https://www.google.com/recaptcha/api.js'></script>
+    <!-- Template styles -->
+    <style rel="stylesheet">
+        /* TEMPLATE STYLES */
+        
+        html,
+        body,
+        .view {
+            height: 100%;
+        }
+        /* Navigation*/
+        
+        .navbar {
+            background-color: transparent;
+        }
+        
+        .scrolling-navbar {
+            -webkit-transition: background .5s ease-in-out, padding .5s ease-in-out;
+            -moz-transition: background .5s ease-in-out, padding .5s ease-in-out;
+            transition: background .5s ease-in-out, padding .5s ease-in-out;
+        }
+        
+        .top-nav-collapse {
+            background-color: #1C2331;
+        }
+        
+        footer.page-footer {
+            background-color: #1C2331;
+            margin-top: -1px;
+        }
+        
+        @media only screen and (max-width: 768px) {
+            .navbar {
+                background-color: #1C2331;
+            }
+        }
+        .navbar .btn-group .dropdown-menu a:hover {
+            color: #000 !important;
+        }
+        .navbar .btn-group .dropdown-menu a:active {
+            color: #fff !important;
+        }
+        /*Call to action*/
+        
+        .flex-center {
+            color: #fff;
+        }
+        
+        .view {
+            background: url("Earth.mp4")no-repeat center center fixed;
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+            background-size: cover;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <!--Navbar-->
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top scrolling-navbar">
+            <div class="container">
+                <a class="navbar-brand" href="#"></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#skills">About Me</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#work">My Work</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#services">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#mono">Monologue</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Contact</a>
+                        </li>
+                      <!--  <li class="nav-item btn-group">
+                            <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown 
+                            </a>
+                            <div class="dropdown-menu dropdown-primary" aria-labelledby="navbarDropdownMenuLink">
+                                <a class="dropdown-item" href="#">Home</a>
+                                <a class="dropdown-item" href="#">Services</a>
+                                <a class="dropdown-item" href="#">About Me</a>
+                                <a class="dropdown-item" href="#">Contact</a>
+                            </div>
+                        </li> -->
+                    </ul>
+                    <ul class="navbar-nav nav-flex-icons">
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://www.facebook.com/garyterell.christie?ref=bookmarks"><i class="fa fa-facebook light-green-text-2"></i></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://twitter.com/0d04e6bd3b94496"><i class="fa fa-twitter light-green-text-2"></i></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://www.instagram.com/gtchristie/"><i class="fa fa-instagram light-green-text-2"></i></a>
+                        </li>
+                    </ul>
+                    <form class="form-inline">
+                       <!-- <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">-->
+                    </form>
+                </div>
+            </div>
+        </nav>
+    <!--/.Navbar-->
+    <!--Mask-->
+    <!-- Video -->
+        <section class="view intro-video" id="home">
+           <video poster="earth.jpg" playsinline autoplay muted loop>
+               <source src="Earth.mp4" type="video/mp4"> 
+            </video>
+            <div class="hm-gradient">
+                <div class="full-bg-img">
+                    <div class="container flex-center">
+                        <div class="row pt-5 mt-3">
+                            <div class="col-md-12 white-text text-center smooth-scroll">
+                                <div class="wow animated fadeInDownBig" data-wow-delay="0.6s">
+                                    <h3 class="display-3 font-bold white-text mb-2" style="font-family: 'Monoton', cursive;">I am Gary Christie<br> the <strong>Web Developer</strong></h3>
+                                    
+                                    <h4 class="subtext-header mt-2 mb-4" style="font-family: 'Nothing You Could Do', cursive;">If you need a <strong>Website</strong> then I am your guy</h4>
+                                </div>
+                                <a href="#contact" data-offset="90" class="btn btn-rounded btn-light-green-2 wow fadeInUp" data-wow-delay="0.2s"><i class="fa fa-home"></i> Contact Me</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </header>
+    <!-- Navigation & Intro -->
+    <!--/.Mask-->
+    <!--columns-->
+    <!--Second container-->
+        <div class="container-fluid" style="background-color: #f3f3f5;">
+            <div class="container py-4 pt-4">
+             <h2 class="text-center font-up my-5 pt-5 wow fadeIn" data-wow-delay="0.2s">About <strong>Me</strong></h2>
+                    
+                <!-- Second section -->
+                <section id="skills">
+                    
+                    <!-- First row -->
+                    <div class="row py-5">
+                    
+                        <!--First column-->
+                        <div class="col-lg-6 col-md-12 mb-3 wow fadeIn" data-wow-delay="0.4s">
+                        
+                        <!--Section heading-->
+                        <div class="d-flex justify-content-start">
+                            <h4 class="text-center font-up mb-5 pb-3 mt-4 wow fadeIn" data-wow-delay="0.2s">My <strong>experience</strong></h4>
+                        </div>
+                           
+                                <!--Description-->
+                                <blockquote class="blockquote bq-warning mb-4">
+                                    <div class="row"> <i class="fa fa-briefcase fa-x mb-1 mr-3 ml-3 dark-grey-text" aria-hidden="true"></i>
+                                        <h5 class="font-bold mb-3">Junior Developer</h5> 
+                                    </div>
+                                    <p class="font-bold ml-1 dark-grey-text mb-2">January, 2016 - Present ( 2years)</p>
+                                    <p class="mb-0 ml-1 light-grey-text">Worked as Junior Developer with Toor. Mostly did wordpress colaborating on building custom themes. Some backend with PHP. Most Frontend work done in Javascript using JQuery and Angular.</p>
+                                </blockquote>
+                            
+                                <blockquote class="blockquote bq-warning mt-1 mb-4">
+                                    <div class="row"> <i class="fa fa-briefcase fa-x mb-1 mr-3 ml-3 dark-grey-text" aria-hidden="true"></i>
+                                        <h5 class="font-bold mb-3">Freelance</h5> </div>
+                                    <p class="font-bold ml-1 dark-grey-text mb-2">March 2014 - Current </p>
+                                    <p class="mb-0 ml-1 light-grey-text">I do build web applications for anyone who needs it</p>
+                                </blockquote>
+                            
+                                <blockquote class="blockquote bq-warning">
+                                    <div class="row"> <i class="fa fa-briefcase fa-x mb-1 mr-3 ml-3 dark-grey-text" aria-hidden="true"></i>
+                                        <h5 class="font-bold mb-3">Health/Life Insurance Broker</h5> </div>
+                                    <p class="font-bold ml-1 dark-grey-text mb-2"><strong>June 2011 - Current </strong></p>
+                                    <p class="mb-0 ml-1 light-grey-text">Although I'm transitioning a full time carreer in Web Development, I do hold a license to sell health and life Insurance, and can be an asset to any health department in or insurance company in creating an application.</p>
+                                </blockquote>
+                                    
+                        </div>
+                        <!--/First column-->
+
+                        <!--Second column-->
+                        <div class="col-lg-5 offset-lg-1 col-md-12 mb-4 wow fadeIn" data-wow-delay="0.4s">
+
+                        <!--Second heading-->
+                        <div class="d-flex justify-content-start">
+                            <h4 class="text-center font-up mb-5 pb-3 mt-4 wow fadeIn" data-wow-delay="0.2s">Development <strong>Skills</strong></h4>
+                        </div>
+                            
+                            <!--Description-->
+                            <p class="black-text font-up font-bold" align="justify">Java Script</p>
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar" style="width: 90%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+
+                            <p class="black-text font-up font-bold pt-3" align="justify">CSS3</p>
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar" style="width: 95%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                             
+                            <p class="black-text font-up font-bold pt-3" align="justify">HTML5</p>
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            
+                            <p class="black-text font-up font-bold pt-3" align="justify">Bootstrap</p>
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar" style="width: 95%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            
+                            <p class="black-text font-up font-bold pt-3" align="justify">PHP</p>
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar" style="width: 53%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            <p class="black-text font-up font-bold pt-3" align="justify">Angular.js</p>
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar" style="width: 63%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            <p class="black-text font-up font-bold pt-3" align="justify">React.js</p>
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar" style="width: 65%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            <p class="black-text font-up font-bold pt-3" align="justify">Node.js</p>
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar" style="width: 50%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>    
+                            <p class="black-text font-up font-bold pt-3" align="justify">Ruby</p>
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar" style="width: 70%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            <p class="black-text font-up font-bold pt-3" align="justify">WordPress</p>
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar" style="width: 80%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            <p class="black-text font-up font-bold pt-3" align="justify">AJAX/SASS</p>
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar" style="width: 60%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            <p class="black-text font-up font-bold pt-3" align="justify">HTML Canvas</p>
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar" style="width: 50%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            <p class="black-text font-up font-bold pt-3" align="justify">My SQL</p>
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar" style="width: 40%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                        </div>
+                        <!--/Second column-->
+
+                    </div>
+                    <!--/First row-->
+
+                </section>
+                <!-- /.Second section -->
+              
+          </div>
+        </div>
+        <!--/Second container-->
+    <main>
+        <!--Main layout-->
+        <!-- First container -->
+        <div class="container text-white" style="background-color: #050006">
+            
+            <!-- Section About -->
+            <section id="services" class="section feature-box mb-5">
+
+                <!-- Section title -->
+                <h2 class="text-center font-up my-5 pt-5 wow fadeIn" data-wow-delay="0.2s">My <strong>Services</strong></h2>
+                    
+                <p class="section-description wow fadeIn" data-wow-delay="0.2s" style="font-family: 'Italiana', serif; font-size: 30px;">I am passion driven for what I do. I believe in doing a job 100% to completion. I love to learn and always willing to take on new projects. You want a service from a developer that loves what he's doing and has good knowledge? Look no more. I'm here to serve.</p> 
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>  
+                
+                <!-- First row -->
+                <div class="row features-big wow fadeIn" data-wow-delay="0.4s">
+                    
+                    <!-- First column -->
+                    <div class="col-md-4 mb-r">
+                        
+                        <!--Panel-->
+                        <div class="card card-body red hoverable">
+                            <i class="fa fa-laptop text-white" aria-hidden="true"></i>
+                            <h5 class="feature-title font-up text-white">Freelancer</h5>
+                            <p class="p-3 mb-2 bg-dark text-white">I build and design websites</p>
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                        </div>
+                        <!--/.Panel-->
+                        
+                    </div>
+                    <!-- /First column -->   
+        
+                    <!-- Second column -->
+                    <div class="col-md-4 mb-r">   
+                        <!--Panel-->
+                        <div class="card card-body blue hoverable">
+                            <i class="fa fa-code text-white" aria-hidden="true"></i>
+                            <h5 class="feature-title font-up text-white">Web Developer</h5>
+                            <p class="p-3 mb-2 bg-dark text-white">I'm open to contract positions and very skilled in Wordpress. My strong suite is Front-end Development</p>
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                        </div>
+                        <!--/.Panel-->
+                        
+                    </div>
+                    <!-- /.Second column -->
+
+                    <!-- Third column -->
+                    <div class="col-md-4 mb-r">
+
+                        
+                        <!--Panel-->
+                        <div class="card card-body green hoverable">
+                            <i class="fa fa-pencil text-white" aria-hidden="true"></i>
+                            <h5 class="feature-title font-up text-white">Microsoft Office</h5>
+                            <p class="p-3 mb-2 bg-dark text-white">I am very efficient in using all Microsoft software such as Word, Excell, Publisher, etc.</p>
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                        </div>
+                        <!--/.Panel-->
+                        
+                    </div>
+                    <!-- /.Third column -->
+
+                </div>
+                <!-- /.First row -->
+
+            </section>
+            <!-- /.Second section -->
+           
+        </div>
+        <!-- /.First container -->
+        <br>
+        <br>
+        <hr class=" container extra-margin my-5">
+        <section id="knowledge">
+         <div class="container">
+            <div class="row">
+                <div></div>
+            </div>
+             
+         </div>
+        </section>
+        <section id="work">
+        <div class="container">
+
+            <!--Page heading-->
+            <div class="row wow fadeIn" data-wow-delay="0.2s">
+                <div class="col-md-12">
+                    <h2 class="text-center font-up my-5 pt-5 wow fadeIn" data-wow-delay="0.2s">My <strong>Work</strong></h2>
+                </div>
+            </div>
+            <!--/.Page heading-->
+            <hr>
+
+            <!--First row-->
+            <div class="row mt-5 wow fadeIn" data-wow-delay="0.2s">
+                <!--Featured image-->
+                <div class="col-lg-7">
+                    <div class="view overlay hm-white-light z-depth-1-half">
+                        <img src="lhhpic.jpg" class="img-fluid" alt="">
+                        <div class="mask"></div>
+                    </div>
+                </div>
+                <!--/.Featured image-->
+
+                <!--Post excerpt-->
+                <div class="col-lg-5">
+                    <a href="#!"><h2 class="post-title font-bold">LHHCOLLECTION</h2></a>
+                    <p class="my-4">This is a hip hop site I built with Team Auxilia</p>
+                    <div class="read-more">
+                        <a href="https://lhhcollection.com/" class="btn btn-primary">Go to Site</a>
+                    </div>
+                </div>
+                <!--/.Post excerpt-->
+            </div>
+            <!--/.First row-->
+            <hr class="extra-margin my-5">
+
+            <!--Second row-->
+            <div class="row wow fadeIn" data-wow-delay="0.2s">
+                <!--Featured image-->
+                <div class="col-lg-7">
+                    <div class="view overlay hm-white-light z-depth-1-half">
+                        <img src="skyview.jpg" class="img-fluid" alt="">
+                        <div class="mask"></div>
+                    </div>
+                </div>
+                <!--Featured image-->
+
+               <!--Post excerpt-->
+                <div class="col-lg-5">
+                    <a href="#!"><h2 class="post-title font-bold">Skyview Wealth</h2></a>
+                    <p class="my-4">Here is a Finance Organization I built working with Team Auxillia</p>
+                    <div class="read-more">
+                        <a href="http://skyviewwealth.com/" class="btn btn-primary">Go to Site</a>
+                    </div>
+                </div>
+                <!--/.Post excerpt-->
+            </div>
+            <!--/.Second row-->
+            <hr class="extra-margin my-5">
+
+            <!--Third row-->
+            <div class="row wow fadeIn" data-wow-delay="0.2s">
+                <!--Featured image-->
+                <div class="col-lg-7">
+                    <div class="view overlay hm-white-light z-depth-1-half">
+                        <img src="frogger.jpg" class="img-fluid" alt="">
+                        <div class="mask"></div>
+                    </div>
+                </div>
+                <!--Featured image-->
+
+               <!--Post excerpt-->
+                <div class="col-lg-5">
+                    <a href="#!"><h2 class="post-title font-bold">Frogger</h2></a>
+                    <p class="my-4">This is a game clone I built while attending Udacity. This project taught me alot by using Prototypes in Javascript, and learning to use HTML Canvas.</p>
+                    <div class="read-more">
+                        <a href="#!" class="btn btn-primary">My code</a>
+                    </div>
+                </div>
+                <!--/.Post excerpt-->
+            </div>
+            <!--/.Third row-->
+            <hr class="extra-margin my-5">
+            
+            <br>
+            
+
+            <!--Pagination-->
+            <nav class="row flex-center wow fadeIn" data-wow-delay="0.2s">
+               <!-- <ul class="pagination">
+                    <li class="page-item disabled">
+                        <a class="page-link" href="#!" aria-label="Previous">
+                            <span aria-hidden="true">&laquo;</span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                    </li>
+                    <li class="page-item active">
+                        <a class="page-link" href="#!">1 <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="page-item"><a class="page-link" href="#!">2</a></li>
+                    <li class="page-item"><a class="page-link" href="#!">3</a></li>
+                    <li class="page-item"><a class="page-link" href="#!">4</a></li>
+                    <li class="page-item"><a class="page-link" href="#!">5</a></li>
+                    <li class="page-item"> 
+                        <a class="page-link" href="#!" aria-label="Next">
+                            <span aria-hidden="true">&raquo;</span>
+                            <span class="sr-only">Next</span>
+                        </a>-->
+                    </li>
+                </ul>
+            </nav>
+            <!--/.Pagination-->
+        </div>
+        <!--/.Main layout-->
+    </main>
+    </section>
+    <section id="mono">
+    <div class="container">
+     <div class="bg-white text-dark">
+       <div class="row wow fadeIn" data-wow-delay="0.2s">
+                <div class="col-md-12">
+                    <h1 class="text-center font-up my-5 pt-5 wow fadeIn" data-wow-delay="0.2s">My <strong>Monologue</strong></h1>
+                </div>
+            </div>
+    <!-- Template styles -->
+      <h2 id="about" class="heading" data-target-resolver style="font-family: 'Finger Paint', cursive; background-color: #F7F9F9;"></h2>
+     <br>
+        <script src="js/index.js"></script>
+        </div>
+    </div>
+    </section>
+
+    <!-- Contact form -->
+     <br>
+     <br>
+        <section id="contact">
+        <div id="contact" class="container">
+         <hr>
+            <!--Section: Contact v.2-->
+            <section class="section contact-section mt-4 mb-5">
+                <!--Section heading-->
+                <h2 class="text-center font-up my-5 pt-5 wow fadeIn" data-wow-delay="0.2s">Contact <strong>me</strong></h2>
+                <!--Section sescription-->
+                <p class="section-description text-center mb-5 pb-4 wow fadeIn" data-wow-delay="0.2s" style="font-family: 'Open Sans', sans-serif;">I am open for business. Contact me and we can schedule a consultation to discuss what it is you exactly need.  </p>
+                <div class="row wow fadeIn" data-wow-delay="0.4s">
+                   
+                    <!--First column-->
+                    <div class="col-md-8 mb-r">
+                        <form id ="contact-form" name="contact-form" action="mail.php" method="POST">
+
+                <!--Grid row-->
+                <div class="row">
+
+                    <!--Grid column-->
+                    <div class="col-md-6">
+                        <div class="md-form">
+                            <div class="md-form">
+                                <input type="text" id="name" name="name" class="form-control">
+                                <label for="name" class="">Your name</label>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Grid column-->
+
+                    <!--Grid column-->
+                    <div class="col-md-6">
+                        <div class="md-form">
+                            <div class="md-form">
+                                <input type="text" id="email" name="email" class="form-control">
+                                <label for="email" class="">Your email</label>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Grid column-->
+
+                </div>
+                <!--Grid row-->
+
+                <!--Grid row-->
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="md-form">
+                            <input type="text" id="subject" name="subject" class="form-control">
+                            <label for="subject" class="">Subject</label>
+                        </div>
+                    </div>
+                </div>
+                <!--Grid row-->
+
+                <!--Grid row-->
+                <div class="row">
+
+                    <!--Grid column-->
+                    <div class="col-md-12">
+
+                        <div class="md-form">
+                            <textarea type="text" id="message" name="message" class="md-textarea"></textarea>
+                            <label for="message">Your message</label>
+                        </div>
+
+                    </div>
+                </div>
+                <!--Grid row-->
+                <button
+                class="g-recaptcha"
+                data-sitekey="6LeQAz4UAAAAAFzIXry9CbUnPnPl1zhPcs_AEdEk"
+                data-callback="YourOnSubmitFn">
+                Submit
+                </button>
+            </form>
+                        <div class="center-on-small-only">
+                         <a class="btn btn-primary" onclick="validateForm()">Send</a>
+                         <script>
+                        function validateForm() {
+    var name =  document.getElementById('name').value;
+    if (name == "") {
+        document.getElementById('status').innerHTML = "Name cannot be empty";
+        return false;
+    }
+    var email =  document.getElementById('email').value;
+    if (email == "") {
+        document.getElementById('status').innerHTML = "Email cannot be empty";
+        return false;
+    } else {
+        var re = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+        if(!re.test(email)){
+            document.getElementById('status').innerHTML = "Email format invalid";
+            return false;
+        }
+    }
+    var subject =  document.getElementById('subject').value;
+    if (subject == "") {
+        document.getElementById('status').innerHTML = "Subject cannot be empty";
+        return false;
+    }
+    var message =  document.getElementById('message').value;
+    if (message == "") {
+        document.getElementById('status').innerHTML = "Message cannot be empty";
+        return false;
+    }
+    document.getElementById('status').innerHTML = "Sending...";
+    
+formData = {
+    'name'     : $('input[name=name]').val(),
+    'email'    : $('input[name=email]').val(),
+    'subject'  : $('input[name=subject]').val(),
+    'message'  : $('textarea[name=message]').val()
+};
+
+
+$.ajax({
+url : "mail.php",
+type: "POST",
+data : formData,
+success: function(data, textStatus, jqXHR)
+{
+
+    $('#status').text(data.message);
+    if (data.code) //If mail was sent successfully, reset the form.
+    $('#contact-form').closest('form').find("input[type=text], textarea").val("");
+},
+error: function (jqXHR, textStatus, errorThrown)
+{
+    $('#status').text(jqXHR);
+}
+});
+}
+</script>
+                        </div>
+                         <div class="status" id="status"></div>
+                    </div>
+                    <!--.First column-->
+                   
+                    <!--Second column-->
+                    <div class="col-md-4">
+                        <ul class="contact-icons">
+                            <li><i class="fa fa-map-marker fa-2x"></i>
+                                <p>Altamonte Springs, FL 32714, USA</p>
+                            </li>
+                            <li><i class="fa fa-phone fa-2x"></i>
+                                <p>407-232-4242</p>
+                            </li>
+                            <li><a href="www.gmail.com"><i class="fa fa-envelope fa-2x"></i></a>
+                                <p>garyterellchristie@gmail.com</p>
+                            </li>
+                        </ul>
+                    </div>
+                    <!--.Second column-->
+                </div>
+                
+            </section>
+            <!--/Section: Contact v.2-->
+
+        </div>
+        <!-- Contact form -->
+
+
+
+    
+    
+
+    <!--Footer-->
+    <footer class="page-footer center-on-small-only mt-0">
+
+        <!--Footer links-->
+        <div class="container-fluid">
+            <div class="row">
+                <!--First column-->
+             <!--   <div class="col-lg-3 col-md-6 ml-auto">
+                    <h5 class="title mb-3"><strong>About material design</strong></h5>
+                   <!-- <p>Material Design (codenamed Quantum Paper) is a design language developed by Google.</p>
+                    <p>Material Design for Bootstrap (MDB) is a powerful Material Design UI KIT for most popular HTML, CSS,
+                        and JS framework - Bootstrap.</p>-->
+                </div>
+                <!--/.First column-->
+                <hr class="w-100 clearfix d-sm-none">
+                <!--Second column-->
+             <!--   <div class="col-lg-2 col-md-6 ml-auto">
+                    <h5 class="title mb-3"><strong>First column</strong></h5>
+                   <!-- <ul>
+                        <li>
+                            <a href="#!">Link 1</a>
+                        </li>
+                        <li>
+                            <a href="#!">Link 2</a>
+                        </li>
+                        <li>
+                            <a href="#!">Link 3</a>
+                        </li>
+                        <li>
+                            <a href="#!">Link 4</a>
+                        </li>
+                    </ul> -->
+                </div>
+                <!--/.Second column-->
+                <hr class="w-100 clearfix d-sm-none">
+                <!--Third column-->
+              <!--  <div class="col-lg-2 col-md-6 ml-auto">
+                    <h5 class="title mb-3"><strong>Second column</strong></h5>
+                   <!-- <ul>
+                        <li>
+                            <a href="#!">Link 1</a>
+                        </li>
+                        <li>
+                            <a href="#!">Link 2</a>
+                        </li>
+                        <li>
+                            <a href="#!">Link 3</a>
+                        </li>
+                        <li>
+                            <a href="#!">Link 4</a>
+                        </li>
+                    </ul> -->
+                </div> 
+                <!--/.Third column-->
+                <hr class="w-100 clearfix d-sm-none">
+                <!--Fourth column-->
+             <!--   <div class="col-lg-2 col-md-6 ml-auto">
+                    <h5 class="title mb-3"><strong>Third column</strong></h5> -->
+                   <!-- <ul>
+                        <li>
+                            <a href="#!">Link 1</a>
+                        </li>
+                        <li>
+                            <a href="#!">Link 2</a>
+                        </li>
+                        <li>
+                            <a href="#!">Link 3</a>
+                        </li>
+                        <li>
+                            <a href="#!">Link 4</a>
+                        </li>
+                    </ul> -->
+                </div>
+                <!--/.Fourth column-->
+            </div>
+        </div>
+        <!--/.Footer links-->
+
+        <hr>
+
+        <!--Call to action-->
+        <div class="call-to-action">
+            <h4 class="mb-5">Gary Christie The Coder</h4>
+            <!--<ul>
+                <li>
+                    <h5>Get our UI KIT for free</h5></li>
+                <li><a target="_blank" href="https://mdbootstrap.com/getting-started/" class="btn btn-danger" rel="nofollow">Sign up!</a></li>
+                <li><a target="_blank" href="https://mdbootstrap.com/material-design-for-bootstrap/" class="btn btn-default" rel="nofollow">Learn more</a></li>
+            </ul> -->
+            <ul class="navbar-nav nav-flex-icons">
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://www.facebook.com/garyterell.christie?ref=bookmarks"><i class="fa fa-facebook light-green-text-2"></i></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://twitter.com/0d04e6bd3b94496"><i class="fa fa-twitter light-green-text-2"></i></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://www.instagram.com/gtchristie/"><i class="fa fa-instagram light-green-text-2"></i></a>
+                        </li>
+                    </ul>
+        </div>
+        <!--/.Call to action-->
+
+        <!--Copyright-->
+        <div class="footer-copyright">
+            <div class="container-fluid"><!--
+                © 2015 Copyright: <a href="https://www.MDBootstrap.com"> MDBootstrap.com </a> -->
+
+            </div>
+        </div>
+        <!--/.Copyright-->
+
+    </footer>
+    <!--/.Footer-->
+
+
+    <!-- SCRIPTS -->
+
+    <!-- JQuery -->
+    <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+
+    <!-- Bootstrap dropdown -->
+    <script type="text/javascript" src="js/popper.min.js"></script>
+
+    <!-- Bootstrap core JavaScript -->
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+    <!-- MDB core JavaScript -->
+    <script type="text/javascript" src="js/mdb.min.js"></script>
+    <script src="jquery-3.2.1.min.js"></script>
+
+
+</body>
+
+</html>
